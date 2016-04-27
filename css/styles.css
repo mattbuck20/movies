@@ -29,5 +29,16 @@ h1, h2, h3, h4, h5, h6 {
     #top_header .logo span {
       font-weight: 300;
       color: #73e298; }
+  #top_header #main_nav {
+    float: right;
+    font-size: .9em;
+    padding-top: 1em; }
+    #top_header #main_nav a {
+      color: #8b8b9f;
+      text-decoration: none;
+      margin-left: 1em; }
+
+#banner {
+  background: url(../images/banner_background.jpg); }
 
 /*# sourceMappingURL=styles.css.map */

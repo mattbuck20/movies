@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 #top_header {
 	padding: 1.5em 0;
 	.logo {
-	    float: left;
+		float: left;
 		text-transform: uppercase;
 		font-size: 1.15em;
 		font-weight: 700;
@@ -42,4 +42,18 @@ h1, h2, h3, h4, h5, h6 {
 			color: $highlight;
 		}
 	}
+	#main_nav {
+		float: right;
+		font-size: .9em;
+		padding-top: 1em;
+		a {
+			color: $secondary;
+			text-decoration: none;
+			margin-left: 1em;
+		}
+	}
+}
+
+#banner {
+	background: url(../images/banner_background.jpg);
 }
